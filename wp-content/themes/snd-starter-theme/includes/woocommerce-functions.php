@@ -1,6 +1,6 @@
 <?php
-add_action('after_setup_theme', 'snd_starter_theme_setup');
-function snd_starter_theme_setup() {
+add_action('after_setup_theme', 'snd_starter_wc_theme_setup');
+function snd_starter_wc_theme_setup() {
   add_theme_support(
     'woocommerce',
     array(
