@@ -1,0 +1,53 @@
+html :where(.wp-block) {
+  min-width: 100% !important;
+}
+
+html .container :where(.wp-block),
+.edit-post-visual-editor__post-title-wrapper .editor-post-title {
+  min-width: 1320px !important;
+}
+
+body {
+  background: #fff !important;
+}
+
+body.mceContentBody {
+  padding: 0;
+}
+
+.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper {
+  margin: 0 !important;
+  padding: 4rem 0;
+  border-bottom: 2px dashed #ccc;
+}
+
+a,
+.wpcf7 [type="submit"] {
+  pointer-events: none;
+}
+
+.acf-block-fields.acf-fields a {
+  pointer-events: unset;
+}
+
+.block-editor-default-block-appender .block-editor-inserter__toggle.components-button.has-icon * {
+  color: #fff;
+}
+
+.swiper-wrapper {
+  overflow-x: scroll;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
+
+.mce-ico::before {
+  font-family: dashicons !important;
+}
+
+iframe {
+  pointer-events: none;
+}
+
+/* Далее кастом */

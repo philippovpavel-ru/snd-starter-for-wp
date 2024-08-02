@@ -61,6 +61,8 @@ function snd_starter_theme_setup()
   add_filter('rss_widget_feed_link', '__return_empty_string');
 }
 
+add_filter('wpcf7_autop_or_not', '__return_false');
+
 if ( class_exists('WooCommerce') ) {
   require_once('includes/woocommerce-functions.php');
 }
